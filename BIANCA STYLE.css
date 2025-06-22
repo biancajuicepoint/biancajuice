@@ -1,0 +1,39 @@
+
+body {background-color:rgba(39, 70, 105, 0.5);  
+         text-align: center;
+        }
+h1 {color: rgba(2, 5, 0, 0.959);
+    font-size: 500%;
+
+}
+p{color: rgb(2, 5, 11);
+font-size: 250%;
+
+}
+.menu{
+    width: 400px;
+    float: center;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration:none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color:#ff7200;
+}
